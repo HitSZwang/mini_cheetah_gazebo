@@ -1,0 +1,4 @@
+<launch>
+
+	<node name="quadruped" pkg="quadruped_ctrl" type="mainController" respawn="false" output="screen"/>
+</launch>
